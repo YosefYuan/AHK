@@ -1,6 +1,4 @@
-﻿#q::run C:\Program Files (x86)\Tencent\TIM\Bin\QQScLauncher.exe
-
-;打開計算器
+﻿;打開計算器
 #v::run calc.exe
 
 ;打開瀏覽器
@@ -8,28 +6,6 @@
 
 ;郵件
 #o::run OUTLOOK.EXE
-
-;sublime
-!1::run D:\Program Files\Sublime Text 3\sublime_text.exe
-
-;VS CODE
-!2::run D:\Program Files (x86)\Microsoft VS Code\Code.exe
-
-;PHOTO SHOP
-!3::run C:\Program Files\Adobe\Adobe Photoshop CC 2014\Photoshop.exe
-
-;有道
-!e::run C:\Users\yosyuan\AppData\Local\youdao\dict\Application\YoudaoDict.exe
-
-;Filezilla
-#+^f::
-run C:\Program Files\FileZilla FTP Client\filezilla.exe
-return
-
-;CONTENT MANAGER
-#+^c::
-run  C:\Users\yosyuan\AppData\Roaming\Microsoft\Windows\Content Manager
-return
 
 ::/dd::
 d = %A_YYYY%-%A_MM%-%A_DD%
@@ -60,3 +36,9 @@ time := time*1000
 Sleep,%time%
 MsgBox 水开拉
 return
+
+
+
+
+
+

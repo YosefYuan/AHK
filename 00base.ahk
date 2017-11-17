@@ -4,6 +4,14 @@
 ;打開瀏覽器
 #g::run https://www.google.com
 
+
+;打開百度
+#b::run https://www.baidu.com
+
+
+;打開地圖
+#m::run http://map.baidu.com/
+
 ;郵件
 #o::run OUTLOOK.EXE
 

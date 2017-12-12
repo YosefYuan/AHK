@@ -1,7 +1,7 @@
 ﻿;打開計算器
 #v::run calc.exe
 
-;打開瀏覽器
+;打開GOOGLE
 #g::run https://www.google.com
 
 

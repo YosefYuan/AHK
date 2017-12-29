@@ -17,8 +17,12 @@ Return
 ;打開計算器
 #v::run calc.exe
 
-;打開GOOGLE
-#g::run https://www.google.com
+;打開regexper
+#a::run https://regexper.com/
+
+
+;打開regexper
+#g::run https://www.google.com/
 
 
 ;打開百度

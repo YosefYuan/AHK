@@ -21,7 +21,7 @@ Return
 #a::run https://regexper.com/
 
 
-;打開regexper
+;打開google
 #g::run https://www.google.com/
 
 

@@ -4,13 +4,11 @@
 ^F10::SoundSet, +1, , mute
 
 ^F11::
-SoundSet +5, MASTER
-SoundSet, +5,WAVE
+SoundSet, +1,WAVE
 Return
 
 ^F12::
-SoundSet -5, MASTER
-SoundSet, -5,WAVE
+SoundSet, -1,WAVE
 Return
 
 

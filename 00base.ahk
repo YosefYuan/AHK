@@ -19,6 +19,10 @@ Return
 #a::run https://regexper.com/
 
 
+;打開慕課
+#z::run https://www.imooc.com/
+
+
 ;打開google
 #g::run https://www.google.com/
 

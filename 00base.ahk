@@ -4,11 +4,11 @@
 ^F10::SoundSet, +1, , mute
 
 ^F11::
-SoundSet, +1,WAVE
+SoundSet, +5,WAVE
 Return
 
 ^F12::
-SoundSet, -1,WAVE
+SoundSet, -5,WAVE
 Return
 
 

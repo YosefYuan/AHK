@@ -15,6 +15,10 @@ Return
 ;打開計算器
 #v::run calc.exe
 
+;打開gitup
+#w::run https://github.com/
+
+
 ;打開regexper
 #a::run https://regexper.com/
 

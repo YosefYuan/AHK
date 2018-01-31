@@ -18,6 +18,9 @@ Return
 ;打開gitup
 #w::run https://github.com/
 
+;打開MDN
+#y::run https://developer.mozilla.org/
+
 
 ;打開regexper
 #a::run https://regexper.com/

@@ -16,10 +16,13 @@ Return
 #v::run calc.exe
 
 ;打開gitup
-#w::run https://github.com/
+#g::run https://github.com/
+
+;打開简书
+#j::run https://www.jianshu.com/u/8f41995a7710
 
 ;打開MDN
-#y::run https://developer.mozilla.org/
+#h::run https://developer.mozilla.org/
 
 
 ;打開regexper
@@ -28,10 +31,6 @@ Return
 
 ;打開慕課
 #z::run https://www.imooc.com/
-
-
-;打開google
-#g::run https://www.google.com/
 
 
 ;打開百度
@@ -45,7 +44,7 @@ Return
 #o::run OUTLOOK.EXE
 
 ::/dd::
-d = %A_YYYY%-%A_MM%-%A_DD%
+d = %A_YYYY%%A_MM%%A_DD%
 ;获得系统时间比如今天的时间：2007-10-21。如果需要“年”的话请替换上面的“-”。
 clipboard = %d%
 ;把 d 的值发送到剪贴板，变量是不用声明的，想引用变量的值，就在变量的前后加“%”。第二行的变量是 AHK 自带的变量。
